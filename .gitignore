@@ -11,3 +11,4 @@ tmp
 **/*.d.ts
 **/*.ngfactory.ts
 aot
+/dist/
