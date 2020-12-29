@@ -15,7 +15,14 @@
     "start": "ng serve",
     "build": "ng build ng-spin-kit --prod",
     "test": "ng test ng-spin-kit",
-    "lint": "ng lint ng-spin-kit"
+    "lint": "ng lint ng-spin-kit",
+    "publish": "npm run build && npm publish --access public dist/ng-spin-kit",
+    "bump:minor": "cd projects/ng-spin-kit && npm version minor && cd ../.. && npm version minor",
+    "bump:major": "cd projects/ng-spin-kit && npm version major && cd ../.. && npm version major",
+    "bump:patch": "cd projects/ng-spin-kit && npm version patch && cd ../.. && npm version patch",
+    "publish:patch": "npm run bump:patch && npm run publish",
+    "publish:minor": "npm run bump:minor && npm run publish",
+    "publish:major": "npm run bump:major && npm run publish"
   },
   "dependencies": {
     "@angular/animations": "~11.0.5",

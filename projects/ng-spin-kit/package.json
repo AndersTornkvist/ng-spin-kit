@@ -1,10 +1,10 @@
 {
-  "name": "ng-spin-kit",
+  "name": "@anderstornkvist/ng-spin-kit",
   "version": "7.0.0",
   "description": "SpinKit (http://tobiasahlin.com/spinkit/) spinners for Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WoltersKluwerPL/ng-spin-kit"
+    "url": "https://github.com/AndersTornkvist/ng-spin-kit"
   },
   "license": "MIT",
   "contributors": [
