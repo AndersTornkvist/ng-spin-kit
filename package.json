@@ -13,7 +13,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build ng-spin-kit",
+    "build": "ng build ng-spin-kit --prod",
     "test": "ng test ng-spin-kit",
     "lint": "ng lint ng-spin-kit"
   },

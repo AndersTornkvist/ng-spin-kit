@@ -113,7 +113,7 @@ import { Component } from '@angular/core';
 
 ### Build
 
-Run `ng build ng-spin-kit` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build ng-spin-kit --prod` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ### Publishing
 
