@@ -8,21 +8,28 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
 ![ng-spin-kit](ng-spin-kit.gif?raw=true "ng-spin-kit")
 
 ## Usage
+
 1. Install with NPM:
+
   ```bash
   npm install ng-spin-kit --save
   ```
 
+<sup>If you need support for Angular versions 8 or lower, use ng-spin-kit version
+6: ```npm install ng-spin-kit@6 --save```.</sup>
+
 2. Import one component
+
   ```javascript
   import { NgSpinKitModule } from 'ng-spin-kit'
   ```
 
 3. Use it:
+
   ```javascript
   // app.component.ts
-  
-  import { Component } from '@angular/core';
+
+import { Component } from '@angular/core';
 
   @Component({
     selector: 'app',
