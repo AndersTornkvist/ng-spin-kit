@@ -93,28 +93,28 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
   ```
   [isRunning]: boolean - state of the spinner, true - visible, false - hidden, default: true
   ```
-  
+
   ```
   [delay]: number - representing the milliseconds to wait, before showing the spinner, default: 0
   ```
-  
+
   ```
   [color]: string - background color for each item
   ```
-  
-#### You can generate JavaScript code based on TypeScript by:
-  ```bash
-  npm run tsc
-  ```
-  
-#### To regenerate typings:
-  ```bash
-  npm run typings
-  ```
-  
-#### To compile and run demo app in browser:
-  ```bash
-  npm start
-  ```
-  
+
+## Development
+
+### Build
+
+Run `ng build ng-spin-kit` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+### Publishing
+
+After building your library with `ng build ng-spin-kit`, go to the dist folder `cd dist/ng-spin-kit` and
+run `npm publish`.
+
+### Running unit tests
+
+Run `ng test ng-spin-kit` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
 ## Add all your requests and ideas in the issues area or send us a pull request!

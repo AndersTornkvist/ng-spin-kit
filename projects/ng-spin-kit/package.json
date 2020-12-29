@@ -1,0 +1,20 @@
+{
+  "name": "ng-spin-kit",
+  "version": "6.0.0",
+  "description": "SpinKit (http://tobiasahlin.com/spinkit/) spinners for Angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WoltersKluwerPL/ng-spin-kit"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Anders Törnkvist (https://github.com/AndersTornkvist)"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=10.0.0",
+    "@angular/core": ">=10.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
